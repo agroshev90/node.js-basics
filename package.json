@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "node.js basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agroshev90/node.js-basics.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js"
+  ],
+  "author": "Groshev Anton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agroshev90/node.js-basics/issues"
+  },
+  "homepage": "https://github.com/agroshev90/node.js-basics#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
