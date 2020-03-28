@@ -4,7 +4,8 @@
   "description": "node.js begin",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index",
+    "prod ": "node index"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,13 @@
   },
   "homepage": "https://github.com/agroshev90/node.js-basics#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.2"
   }
 }
