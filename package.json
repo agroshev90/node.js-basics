@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/agroshev90/node.js-basics#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
   }
 }
